@@ -9,4 +9,4 @@ The resulting model achieved an **ROC of 0.98**. The **F1 scores were 1.0 and 0.
 
 Metascape and Reactome were subsequently used for **pathway analysis** of the 85 selected genes. This revealed strong enrichment in immune-related processes, particularly those associated with **inflammatory response, immune cell chemotaxis, and cytokine signaling**, along with **extracellular matrix remodeling and profibrotic mediator pathways**. This is consistent with the chronic mucosal inflammation and tissue remodeling characteristic of Crohn's disease. The figures produced are attached. 
 
-Overall, the findings demonstrate the potential of machine-learning approaches to identify biologically relevant molecular signatures from transcriptomic data. 
+Overall, the findings demonstrate the potential of machine-learning approaches to identify biologically relevant molecular signatures from transcriptomic data. Unlike traditional RNA-seq pipelines, which rely on univariate differential expression testing to find individually significant genes, this project's hybrid RF-NN approach identifies genes based on their combined, nonlinear contribution to classification accuracy. 
