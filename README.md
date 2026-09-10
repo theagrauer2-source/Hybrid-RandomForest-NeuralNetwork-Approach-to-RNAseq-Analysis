@@ -1,6 +1,6 @@
 # A Hybrid Random Forest - Neural Network Approach to Identifying Genetic Signatures of Pediatric Crohn's Disease from RNA-Sequencing Data
 
- ** Overview **
+ **Overview**
 
 This project applied machine learning to RNA-sequencing data from 210 pediatric individuals diagnosed with Crohn’s disease (CD) and a control group of 35 individuals without inflammatory bowel disease (IBD). The goal was to identify genes that were most informative for distinguishing disease from healthy states and to investigate the biological pathways associated with pediatric CD.
 
