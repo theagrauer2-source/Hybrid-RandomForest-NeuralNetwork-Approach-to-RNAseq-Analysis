@@ -10,7 +10,7 @@ The resulting model achieved an **AUROC of 0.986**. The **F1 scores were 0.98 an
 
 Gradient-based feature attribution identified the genes that were most influential in the neural network's predictions. The top 15 most influential, based on this metric, are provided below:
 
-<img width="386" height="480" alt="top 15 genes" src="https://github.com/user-attachments/assets/9b5e172b-8989-421e-9c61-9af2c919a00f" />
+<img width="346" height="440" alt="top 15 genes" src="https://github.com/user-attachments/assets/9b5e172b-8989-421e-9c61-9af2c919a00f" />
 
 
 Metascape, Reactome, and Enrichr were subsequently used for **pathway analysis of all 80 genes** used in NN prediction. This revealed strong enrichment in immune-related processes, particularly those associated with **inflammatory response, immune cell chemotaxis, and cytokine signaling**, along with **extracellular matrix remodeling and profibrotic mediator pathways**. This is consistent with the chronic mucosal inflammation and tissue remodeling characteristic of Crohn's disease. The figures produced are attached in another file. 
