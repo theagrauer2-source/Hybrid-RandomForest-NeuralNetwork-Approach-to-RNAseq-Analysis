@@ -23,8 +23,8 @@ Original Dataset Source: https://www.ebi.ac.uk/gxa/experiments/E-GEOD-93624/Resu
 
 ## How to Run
 
-1. Download the provided source .zip file.
-2. Extract the contents of the .zip file.
-3. Download the provided .ipynb Jupyter Notebook.
+1. Download the provided source .zip file
+2. Extract the contents of the .zip file
+3. Download the provided .ipynb Jupyter Notebook
 4. Open the notebook in JupyterLab or another compatible environment
 5. Run the notebook cells in order
