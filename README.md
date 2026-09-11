@@ -17,4 +17,14 @@ Metascape, Reactome, and Enrichr were subsequently used for **pathway analysis o
 
 Overall, the findings demonstrate the potential of machine-learning approaches to identify biologically relevant molecular signatures from transcriptomic data. Unlike traditional RNA-seq pipelines, which rely on univariate differential expression testing to find individually significant genes, this project's hybrid RF-NN approach identifies genes based on their combined, nonlinear contribution to classification accuracy. 
 
+More investigation should be done into other possible model architectures, and comparisons should be made to other ML models such as SVMs, KNNs, and logistic regression. 
+
 Dataset: https://www.ebi.ac.uk/gxa/experiments/E-GEOD-93624/Results?specific=true&geneQuery=%255B%255D&filterFactors=%257B%257D&cutoff=%257B%2522foldChange%2522%253A1%252C%2522pValue%2522%253A0.05%257D&regulation=%2522UP_DOWN%2522
+
+## How to Run
+
+1. Download the provided source .zip file.
+2. Extract the contents of the .zip file.
+3. Download the provided .ipynb Jupyter Notebook.
+4. Open the notebook in JupyterLab or another compatible environment
+5. Run the notebook cells in order
