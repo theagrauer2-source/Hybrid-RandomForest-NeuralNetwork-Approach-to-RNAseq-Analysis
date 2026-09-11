@@ -8,7 +8,9 @@ A hybrid machine-learning approach was implemented, in which a **Random Forest (
 
 The resulting model achieved an **AUROC of 0.986**. The **F1 scores were 0.98 and 0.83** for positive and negative classifications, respectively. It is also noteable that **recall for the CD class was 1.00**. That is, no CD patient was misclassified as a non-IBD control, which is a clinically meaningful result given the cost of missing true disease cases. It is also worth noting that the dataset is imbalanced, with a majority-class baseline accuracy of 0.85. The model's 0.95 accuracy therefore represents a modest but meaningful 0.10 margin over that baseline. Relevant figures and metrics produced are attached. 
 
-Gradient-based feature attribution identified the genes that were most influential in the neural network's predictions. The top ten most influential were (C6, S100A8, CXCL6, CXCL8, AC234582.1, ITIH3, TRPC4, <img width="250" height="350" alt="Screenshot 2026-09-10 at 8 21 41 PM" src="https://github.com/user-attachments/assets/14d93d3e-bd06-4b72-84b2-56ac400904f4" />
+Gradient-based feature attribution identified the genes that were most influential in the neural network's predictions. The top 15 most influential, based on this metric, are provided below:
+
+<img width="386" height="480" alt="top 15 genes" src="https://github.com/user-attachments/assets/9b5e172b-8989-421e-9c61-9af2c919a00f" />
 
 
 Metascape, Reactome, and Enrichr were subsequently used for **pathway analysis** of all 80 genes used in NN prediction. This revealed strong enrichment in immune-related processes, particularly those associated with **inflammatory response, immune cell chemotaxis, and cytokine signaling**, along with **extracellular matrix remodeling and profibrotic mediator pathways**. This is consistent with the chronic mucosal inflammation and tissue remodeling characteristic of Crohn's disease. The figures produced are attached. 
