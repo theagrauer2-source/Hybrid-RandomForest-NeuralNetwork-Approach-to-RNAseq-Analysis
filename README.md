@@ -13,7 +13,7 @@ Gradient-based feature attribution identified the genes that were most influenti
 <img width="346" height="440" alt="top 15 genes" src="https://github.com/user-attachments/assets/9b5e172b-8989-421e-9c61-9af2c919a00f" />
 
 
-Metascape, Reactome, and Enrichr were subsequently used for **pathway analysis of all 80 genes** used in NN prediction. This revealed strong enrichment in immune-related processes, particularly those associated with **inflammatory response, immune cell chemotaxis, and cytokine signaling**, along with **extracellular matrix remodeling and profibrotic mediator pathways**. This is consistent with the chronic mucosal inflammation and tissue remodeling characteristic of Crohn's disease. The figures produced are attached in another file. 
+Metascape, Reactome, and Enrichr were subsequently used for **pathway analysis of all 80 genes** used in NN prediction. This revealed strong enrichment in immune-related processes, particularly those associated with **inflammatory response, immune cell chemotaxis, and cytokine signaling**, along with **extracellular matrix remodeling and profibrotic mediator pathways**. This is consistent with the chronic mucosal inflammation and tissue remodeling characteristic of Crohn's disease. The figures produced from pathway analyses are attached in another file. 
 
 Overall, the findings demonstrate the potential of machine-learning approaches to identify biologically relevant molecular signatures from transcriptomic data. Unlike traditional RNA-seq pipelines, which rely on univariate differential expression testing to find individually significant genes, this project's hybrid RF-NN approach identifies genes based on their combined, nonlinear contribution to classification accuracy. 
 
